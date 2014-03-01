@@ -1,0 +1,14 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <strong>English:</strong>
+  <%= @definition.english %>
+</p>
+
+<p>
+  <strong>Other:</strong>
+  <%= @definition.other %>
+</p>
+
+<%= link_to 'Edit', edit_definition_path(@definition) %> |
+<%= link_to 'Back', definitions_path %>
